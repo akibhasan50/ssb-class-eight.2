@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.navbar-brand img {
+    height: 65px;
+}
+
+.navbar .nav-item {
+
+    padding: 0 15px;
+    background: transparent;
+    border-radius: 100px;
+    transition: .3s;
+    font-size: 1.25rem;
+    transition: all .2s ease-out;
+}
+
+.navbar .nav-item:last-child {
+
+    padding: 0 15px;
+    background: linear-gradient(45deg, #85E0CE, tan);
+    border-radius: 100px;
+}
+
+.navbar .nav-item:hover {
+
+
+    background: #85E0CE;
+
+}
+
+.navbar .nav-item .nav-link {
+    color: black !important;
+}
+
+.banner-section {
+    background-image: url(img/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+}
+
+.banner-wrap {}
+
+.banner-cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.banner-cont h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.banner-cont p {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.banner-cont a {
+    text-decoration: none;
+}
+
+.banner-btn {
+    background: linear-gradient(45deg, #85E0CE, tan);
+    color: black;
+    padding: 15px 25px;
+    border-radius: 100px;
+    font-size: 1.2rem;
+    transition: all .2s ease-out;
+
+}
+
+.banner-btn:hover {
+    background: #1f8b76;
+    color: #fff;
+
+
+}
+
+.brand-section {
+    background: rgb(209, 206, 206);
+}
+
+.task-lit-sec {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.task-lit-sec2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-task-section {
+    overflow: hidden;
+
+}
+
+.main-task-section a {
+    text-decoration: none;
+}
+
+.main-task-section p {
+    color: #776e6e;
+}
+
+.task-btn {
+    background: linear-gradient(45deg, #85E0CE, tan);
+    color: black;
+    padding: 10px 37px;
+    border-radius: 100px;
+    display: inline-block;
+    transition: all .2s ease-out;
+}
+
+.task-btn:hover {
+    background: #1f8b76;
+    color: #fff;
+
+}
+
+.build-dev-sec {
+    background: rgb(209, 206, 206);
+}
+
+.build-dev-sec a {
+    text-decoration: none;
+}
+
+.build-dev-sec h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.build-btn {
+
+    background: linear-gradient(45deg, #85E0CE, tan);
+    color: black;
+    padding: 10px 40px;
+    border-radius: 100px;
+    width: 250px;
+    transition: all .2s ease-out;
+}
+
+.build-btn:hover {
+    background: #1f8b76;
+    color: #fff;
+
+}
+
+.build-btn2 {
+
+    border: 1px solid #26a88e;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 100px;
+    width: 250px;
+    transition: all .2s ease-out;
+}
+
+.build-btn2:hover {
+    background: #1f8b76;
+    color: #fff;
+
+}
+
+.btn-arrow {
+
+    border: 1px solid #01a39c;
+    transition: all .2s ease-out;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: block;
+
+
+}
+
+.btn-arrow:hover {
+
+    background: #01a39c;
+
+
+}
+
+.card {
+    background: #dfd8d8;
+}
+
+.card p {
+    color: #858080;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.form-section {
+    background: #1b222c;
+}
+
+.form-section p {
+    color: #b2b5bc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.submit-form .form-control {
+    background: transparent;
+    border: 1px solid palevioletred;
+    color: #fff;
+
+
+}
+
+.submit-form input {
+    padding: 23px;
+}
+
+.btn-submit {
+    border: 1px solid #26a88e;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 100px;
+    width: 250px;
+    transition: all .2s ease-out;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background: #1f8b76;
+    color: #fff;
+}
+
+.form-check input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+
+    display: block;
+    position: absolute;
+}
+
+.get-start-sec {
+    background: #1b222c;
+}
+
+.btn-get-start {
+    border: 1px solid #26a88e;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 100px;
+    width: 200px;
+    transition: all .2s ease-out;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-get-start:hover {
+    background: #1f8b76;
+    color: #fff;
+}
+
+.same-p {
+    height: 180px;
+}
+
+.footer-sec {
+    background: #3e454d;
+}
+
+.footer-sec ul li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+.footer-sec ul li a {
+    color: #c8c9cb;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .2s ease-out;
+
+}
+
+.footer-sec ul li a:hover {
+    margin-left: 10px;
+
+}
+
+.hr-foot {
+    background: #7a7a7a;
+}
+
+.social-icn {
+
+    font-size: 30px;
+    padding: 0 10px;
+
+
+}
+
+.foot-logo img {
+    height: 60px;
+}
+
+.power-idea-sec {
+    position: relative;
+}
+
+.power-idea-sec::after {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 50%;
+    width: 100%;
+    top: 52%;
+    z-index: -1;
+    left: 0;
+    background: #1b222c;
+}
+
+.wrap {
+    padding: 0 170px;
+
+}
+
+@media(max-width:1199px) {
+    .card-body h4 {
+        font-size: 20px;
+    }
+
+    .get-start-sec h3 {
+        font-size: 23px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .banner-cont h1 {
+        font-size: 60px;
+
+    }
+
+    .wrap {
+        padding: 20px 50px;
+
+    }
+
+    .get-start-sec h3 {
+        font-size: 26px;
+    }
+
+
+}
+
+@media (max-width:767px) {
+
+    .banner-cont h1 {
+        font-size: 45px;
+
+    }
+
+    .banner-cont p {
+        font-size: 20px;
+
+    }
+
+    .task-btn {
+
+        padding: 10px 30px;
+
+    }
+
+    .wrap {
+        padding: 20px 50px;
+
+    }
+
+    .build-btn {
+
+
+        padding: 14px 30px;
+
+        width: 200px;
+
+    }
+
+    .build-btn2 {
+
+        padding: 14px 30px;
+
+        width: 200px;
+    }
+
+    .build-dev-sec h2 {
+        font-size: 25px;
+    }
+
+    .build-dev-sec p {
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width:575px) {
+    .power-idea-sec h1 {
+        font-size: 28px;
+    }
+
+    .form-section p {
+
+        line-height: 20px;
+    }
+
+    .btn-submit {
+
+        display: block;
+    }
+
+
+}
